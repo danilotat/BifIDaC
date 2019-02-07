@@ -12,7 +12,7 @@
 	intergenic extraction or amplicon selection.
 	
 	Code was tested on:	 Windows10, x64 with Python 3.x
-						 Ubuntu 18.04 LTS, x64 with Python 3.x 
+				 Ubuntu 18.04 LTS, x64 with Python 3.x 
 	
 	I don't give a shit about lacking pythonic syntax.
 	

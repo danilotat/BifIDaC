@@ -101,8 +101,8 @@ else:
 #   genome downloading
 #   time sleep is used to avoid server timeout while querying
 
-Entrez.email = "danilo.tatoni@studenti.unipr.it"
-Entrez.api_key = "01890f30234585e32b62b4993b5c8c240b08"
+Entrez.email = ""	#insert email
+Entrez.api_key = ""	#insert your api key
 search_term = "Bifidobacterium[organism] AND complete+genome[title]"
 handle = Entrez.esearch(db="nucleotide", term=search_term, retmax=500)
 genome_ids = Entrez.read(handle)['IdList']

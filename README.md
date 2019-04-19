@@ -11,9 +11,9 @@ By default they contain sequence of  Probio-bif_Uni and Probio-bif_Rev , designe
 amplicon sequencing (ITS) protocol" by Milani C. et al., 2014. 
 https://doi.org/10.1111/1574-6941.12410
 
-Header of sequences is not considered important. If namefile is changed, adjustment needs to be done
+Header of sequences is not relevant. If namefile is changed, adjustment needs to be done
 into code.
-Every sequence retrieved is written in direction 5' -> 3'
+Every retrieved sequence was written in direction 5' -> 3'
 Header contains the associated taxonomy.
 
 

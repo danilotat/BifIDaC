@@ -28,21 +28,19 @@ import platform
 import sys
 import importlib.util
 import time
-from Bio import SeqIO
-from Bio import Entrez
-from Bio.Align.Applications import ClustalwCommandline
-from Bio import AlignIO
 
 # check presence of biopython
 
 package = "Bio"
 spec = importlib.util.find_spec(package)
-print(spec)
 if spec is None:
     print(package+" is not installed.")
     print("Please install using")
     print("$ pip -install biopython")
     sys.exit()
+else:
+    from Bio import SeqIO, Entrez, AlignIO
+    from Bio.Align.Applications import ClustalwCommandline
 
 # check right existance of primers file
 
